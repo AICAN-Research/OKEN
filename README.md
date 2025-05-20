@@ -183,6 +183,8 @@ The script accepts several command-line arguments to configure the evolutionary 
 python optimize.py --data_folder ./patches/ --output_folder ./ --output_dimension 8 --pop_size 200 --gen_max 100 --mutation_rate 0.8 --crossover_rate 0.4 --model_type d
 ```
 
+To try different versions of optimization such as with augmentaion, for DINO, and for PCA, try the proper Python files.
+
 #### Command-Line Arguments
 
 - `--data_folder`: (Required) Path to the folder containing N subdirectories, each representing a cluster.
